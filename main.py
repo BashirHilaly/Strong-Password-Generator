@@ -2,12 +2,10 @@ import string
 import random
 
 
-
 # Our lists of possible characters for our password
 letters_and_numbers = list(string.ascii_lowercase + string.ascii_uppercase + string.digits)
 
 all_characters = list(string.ascii_lowercase + string.ascii_uppercase + string.digits + string.punctuation)
-
 
 
 # generate the password first by checking our bool
@@ -26,9 +24,6 @@ def generate_password(num_of_char):
     else:
         print("You must hit either the 'y' key for yes or the 'n' key for no, then hit enter")
         generate_password(num_of_char)
-
-        
-    
 
     
 # Check how many characters
