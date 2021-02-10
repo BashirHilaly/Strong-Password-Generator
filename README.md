@@ -1,2 +1,2 @@
-# strong_pass_generator
-Completely random password generator for strengthening account security.
+# Strong Password Generator
+## Completely random password generator for strengthening account security.
